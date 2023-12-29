@@ -1,21 +1,24 @@
-text cases for "# Python program to find the factorial of a number provided by the user.
+Positive Number:
 
-# change the value for a different result
-num = 7
+Input: num = 5
+Expected Output: The factorial of 5 is 120
+Zero:
 
-# To take input from the user
-#num = int(input("Enter a number: "))
+Input: num = 0
+Expected Output: The factorial of 0 is 1
+Negative Number:
 
-factorial = 1
+Input: num = -3
+Expected Output: Sorry, factorial does not exist for negative numbers
+Large Positive Number:
 
-# check if the number is negative, positive or zero
-if num < 0:
-   print("Sorry, factorial does not exist for negative numbers")
-elif num == 0:
-   print("The factorial of 0 is 1")
-else:
-   for i in range(1,num + 1):
-       factorial = factorial*i
-   print("The factorial of",num,"is",factorial)
-"
+Input: num = 10
+Expected Output: The factorial of 10 is 3628800
+User Input:
 
+(Assuming the user inputs 6)
+Expected Output: The factorial of 6 is 720
+User Input - Negative Number:
+
+(Assuming the user inputs -2)
+Expected Output: Sorry, factorial does not exist for negative numbers
